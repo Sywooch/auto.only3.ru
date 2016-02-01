@@ -1,0 +1,172 @@
+#list-title{
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #9F9F9F;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #CCC;
+}
+#list-title li{
+    display: inline-block;
+}
+
+#list-title-1{
+    width: 91px;
+    text-align: center;
+}
+#list-title-2{
+    width: 175px;
+    text-align: center;
+}
+#list-title-3{
+    width: 178px;
+    text-align: left;
+    padding-left: 10px;
+}
+#list-title-4{
+    width: 182px;
+    text-align: center;
+}
+
+#list-history{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#list-history li{
+    padding: 3px 0px;
+    height: 54px;
+    overflow: hidden;
+}
+#list-history li:nth-child(even) {
+    background-color: #eee;
+}
+
+.item-time{
+    float: left;
+    width: 85px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 45px;
+}
+.item-auto-img{
+    float: left;
+    width: 75px;
+}
+.item-auto-img img {
+    width: 60px;
+    padding: 1px;
+    border: 1px solid #9B9B9B;
+    border-radius: 3px;
+}
+
+.item-auto-name{
+    float: left;
+    width: 115px;
+    text-align: left;
+    padding-left: 7px;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 300;
+    height: 45px;
+    overflow: hidden;
+    line-height: 45px;
+}
+
+.item-fio{
+    float: left;
+    width: 175px;
+    text-align: left;
+    padding-left: 10px;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 300;
+}
+.item-data{
+    float: left;
+    width: 197px;
+    text-align: left;
+    line-height: 36px;
+}
+
+.item-data span{
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    vertical-align: top;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.item-data span b{
+    display: block;
+}
+.item-action{
+    float: right;
+    width: 92px;
+    text-align: left;
+    line-height: 18px;
+}
+.order-action{
+    font-family: Roboto;
+    font-size: 14px;
+    color: #1499DF;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    display: inline-block;
+    background-image: url('/images/orderHistory.png');
+    background-size: 15px;
+    margin-bottom: 3px;
+}
+.del-action{
+    font-family: Roboto;
+    font-size: 14px;
+    color: #ED2C17;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    display: inline-block;
+    background-image: url('/images/deleteHistory.png');
+    background-size: 15px;
+}
+
+h1{
+    text-align: center;
+    margin-left: 0px;
+}
+.act-autoprokat {
+    background-color: #CCE7F6 !important;
+}
+
+.list-item{
+    display: block;
+    height: 54px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+#status{
+    width: 110px;
+    border:1px solid #4cbeff;
+    border-radius: 4px;
+
+}
+.item-only-fio{
+    line-height: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+
+#list-history .item-time{
+    padding-top: 8px;
+    padding-left: 2px;
+    line-height: 16px;
+}
+
+#list-history .item-time .pay1{
+    color: #2BB673;
+}

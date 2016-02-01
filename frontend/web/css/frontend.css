@@ -1,0 +1,339 @@
+/*******forms****************/
+
+fieldset{
+    display: table;
+}
+
+fieldset .form-group{
+    display: table-row;
+}
+
+fieldset .form-group label {
+    display: table-cell;
+    vertical-align: top;
+    color: #747474;
+}
+
+fieldset .form-group input {
+    display: table-cell;
+}
+
+#signupform .form-group label,
+#loginform .form-group label{
+    font-family: 'PT Sans Caption';
+    font-size: 14px;
+    width: 155px;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: normal;
+
+    vertical-align: top;
+    padding-bottom: 6px;
+
+}
+
+.required label{
+    color: #747474;
+        width: 150px;
+    text-align: right;
+}
+
+.required label:after{
+    content: ' *';
+}
+
+
+.select2-container--krajee .select2-selection {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    font-size: 14px;
+    outline: 0 none;
+}
+/******endforms************/
+
+
+
+.btn-save:hover {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #fafafa;
+}
+
+.btn-save {
+    background-color: transparent;
+    background-image: url("/images/good.png");
+    background-position: 8px 5px;
+    background-repeat: no-repeat;
+    background-size: 27px auto;
+    border: 1px solid #8ac149;
+    border-radius: 5px;
+    color: #6ca42a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 37px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-left: 44px;
+    padding-right: 14px;
+}
+
+/**************salons block and car-rents page*************/
+
+#salon-box{
+    margin-bottom: 15px;
+}
+#salon-box h2{
+    color: #161515;
+    font-family: "PT Sans Caption";
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    letter-spacing: -1px;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#salon-box h2 a{
+border-bottom: 1px dotted #e86c21;
+    color: #e86c21;
+    line-height: 22px;
+    display: inline-block;
+    text-decoration: none;
+}
+#salon-box ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#salon-box .list-salons li{
+    display: inline-block;
+    width: 284px;
+    margin-right: 20px;
+    padding: 7px;
+    border-radius: 4px;
+    padding-left: 52px;
+    background-image: url('/images/salon.png');
+    background-repeat: no-repeat;
+    background-size: 51px;
+    background-position: 0px 7px;
+}
+#salon-box .list-salons li h3{
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+#salon-box .list-salons li h3 a{
+    color: #0AA988;
+}
+#salon-box .salon-phone{
+
+}
+.list-b2{
+    margin-top: 20px !important; 
+}
+#salon-box .salon-adress{
+    font-size: 14px;
+    font-weight: normal;
+    color: #878787;
+}
+.box-image-rental{
+        text-align: center;
+    height: 280px;
+    background-image: url('/images/rentcar.jpg');
+    background-repeat: no-repeat;
+    box-shadow: rgba(24, 80, 121, 0.6) 0px 1px 3px;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    background-position: center -8px;
+    background-size: 940px;
+}
+.box-image-rental h1{
+        margin: 0;
+    line-height: 70px;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: -1px;
+    font-family: 'Roboto';
+}
+
+/**********************************/
+
+#mpd {
+    -webkit-transition: height 0.5s ease, box-shadow 0.5s linear;
+    transition: height 0.5s ease, box-shadow 0.5s linear;
+    box-shadow: rgba(24, 80, 121, 0.6) 0px 1px 3px;
+    line-height: 65px;
+    background: url('/images/mapsbgbig.jpg') center top no-repeat;
+    cursor: pointer;
+    font-family: 'PT Sans Caption';
+    font-size: 22px;
+    letter-spacing: -0.5px;
+    color: #161616;    text-align: center;
+}
+
+
+#map{
+    display: none;
+    height: 400px;
+    margin: 7px 0px;
+    -webkit-transition: height 0.5s ease, box-shadow 0.5s linear;
+    transition: height 0.5s ease, box-shadow 0.5s linear;
+    box-shadow: rgba(24, 80, 121, 0.6) 0px 1px 3px;
+    padding: 3px;
+}
+
+.system-our-cars #map{
+    display: block;
+}
+
+.autoItemView #map{
+    display: block;
+    padding: 0px;
+    height: 370px;
+    margin: 0px;
+}
+
+#map-control{
+    margin-top: 7px;
+    border-radius: 4px;
+    text-align: left;
+}
+#button-red{
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0.79);
+    font-size: 14px;
+    cursor: pointer;
+    font-style: italic;
+    padding-left: 20px;
+    background-size: 14px;
+    font-family: 'noto Sans';
+    background-repeat: no-repeat;
+    background-image: url('/images/mpicon.png');
+    background-position: 3px;
+}
+.button-red-red{
+    background-color: #E86C21;
+}
+.button-red-green{
+    background-color: #5CAF31;
+}
+.ya_box_left{
+    width: 125px;
+    height: 150px;
+    float: left;
+    overflow: hidden;
+}
+.ya_thumb{
+    width: 125px;
+    border-radius: 3px;
+}
+.ya_box_right{
+    width: 223px;
+    margin-left: 10px;
+    float: right;
+}
+.p_name{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 22px;
+    color: rgb(26, 26, 26);
+    margin: 5px 0px;
+    letter-spacing: -0.5px;
+}
+.p_name a
+{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+
+.p_type{
+    margin-left: 1px;
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    color: rgb(22, 163, 228);
+    margin-bottom: 5px;
+}
+.p_opt{
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(32, 104, 223, 1);
+    margin: 5px 0px;
+    letter-spacing: 0.5px;
+}
+.p_opt_s{
+    font-style: italic;
+    font-size: 14px;
+    font-family: 'Noto Sans';
+    color: #878787;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1px;
+    padding-left: 33px;
+    background-repeat: no-repeat;
+    background-image: url('/images/exp.png');
+    margin-right: 17px;
+    background-position: 0px 0px;
+}
+.p_opt_o{
+    font-size: 14px;
+    font-family: 'Noto Sans';
+    color: #878787;
+    vertical-align: top;
+    margin-top: 3px;
+    padding-left: 33px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: 26px;
+    background-image: url('/images/review.jpg');
+}
+.p_adress{
+    margin-top: 2px;
+    font-family: 'noto Sans';
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 5px;
+    text-align: center;
+    border-top: 1px solid #D9DBDD;
+}
+.online-p{
+    font-family: 'Noto Sans';
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px 0px;
+    font-style: italic;
+    color: #fff;
+    width: 210px;
+    font-size: 18px;
+    background-color: #16A3E4;
+}
+.online-p:hover{
+    background-color: #D52626;
+}
+.pwr {
+    font-size: 12px;
+    font-weight: bold;
+    color: #5C5B5B;
+    font-family: 'PT Sans Caption';
+    position: absolute;
+    right: 6px;
+    top: 19px;
+}
+/*********************************/

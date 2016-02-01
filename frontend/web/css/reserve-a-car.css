@@ -1,0 +1,965 @@
+.items {
+    margin: 20px 0px;
+    padding: 0px;
+}
+
+.shadow2{
+    -webkit-transition: height 0.5s ease, box-shadow 0.5s linear;
+    transition: height 0.5s ease, box-shadow 0.5s linear;
+    box-shadow: rgba(24, 80, 121, 0.6) 0px 1px 3px;
+    border-radius: 4px;
+    padding: 0px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.it-33 {
+    padding-left: 24px;
+    line-height: 32px;
+   /* background-image: url('/images/sl.png');
+    background-repeat: no-repeat;
+    background-position: 0px 4px; */
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'open Sans';
+    color: #333;
+}
+.vls span {
+    font-size: 19px;
+    display: inline-block;
+    width: 90px;
+    font-family: 'PT SAns Caption';
+    font-weight: bold;
+    text-align: right;
+    color: #515151;
+}
+.vls {
+    font-size: 12px;
+}
+
+#list-calendar-month {
+    margin: 2px;
+    font-family: 'PT SAns Caption';
+    text-align: center;
+    list-style-type: none;
+    font-size: 15px;
+}
+#list-calendar-month li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.m_name {
+    padding: 5px 0px;
+    color: #6D6D6D;
+    text-align: center;
+    padding-left: 5px;
+    font-family: 'Noto Sans';
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.list-name-week li {
+    width: 29px;
+    height: 20px;
+    line-height: 20px;
+    margin: 3px;
+    font-size: 14px;
+    color: #A2A2A2;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 5px !important;
+}
+
+.cell_noempty {
+    background-color: #eee;
+    border-radius: 5px;
+    color: #5E5E5E;
+    letter-spacing:	-1px;
+
+    line-height: 28px;
+}
+
+.cell_cal {
+    float: left;
+    min-width: 32px;
+    min-height: 28px;
+    margin: 3px;
+    padding: 2px;
+
+    font-family: "Open Sans";
+    font-size: 19px;
+    font-weight: 300;
+    font-style:	normal;
+    color:	rgb(51,​ 51,​ 51);
+    text-align:	center;
+    vertical-align:	baseline;
+
+}
+
+.cell_empty {
+    color: #fff;
+}
+
+
+.cell_past {
+    color: #A7A7A7;
+    cursor: no-drop;
+}
+#cell_today {
+    background-color: #FFC274;
+    color: #333;
+}
+.cell_future {
+    background-color: #89E6A3;
+    color: #272727;
+    cursor: pointer;
+}
+
+.cell_nobrone:hover{
+    opacity:0.9;
+    color:#eee;cursor: pointer;
+}
+
+
+.cell_active{
+    background-color: #145181 !important;
+    color: #F5F5F5 !important;
+    cursor: pointer;
+}
+
+.cell_brone {
+    background-color: #e98282;
+    color: #333;
+    cursor: no-drop;
+}
+
+.des-calendar-top {
+    padding: 3px 10px;
+    font-family: 'Noto Sans';
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+    text-shadow: 0px 0px 1px #fff;
+    text-align: left;
+    font-style: italic;
+    color: #646464;
+    padding-left: 35px;
+}
+
+
+#panel-contactus {
+    padding: 10px;
+    background-color: #fff;
+}
+
+#left-form-part {
+    float: left;
+    margin-right: 10px;
+    width: 300px;
+    margin-left: 0px;
+}
+#right-form-part {
+    float: left;
+    width: 280px;
+}
+#center-form-part{
+    margin: 0px;
+    padding: 0px;
+}
+#center-form-part .row-input{
+    margin: auto;
+    text-align: center;
+}
+
+#center-form-part .row-input input{
+   margin: 0px;
+    padding: 0px;
+}
+
+.row-input {
+    margin: 7px 0px;
+}
+.inp-contus {
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: 'PT Sans Caption';
+    background-color: #EBEBEB;
+    border: 1px solid #D8D8D8;
+}
+.phone-img{
+    line-height: 25px;
+    padding-top: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 0px 0px 0px 8px;
+    border-radius: 5px;
+}
+#number-phone-img {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4px;
+    opacity: .7;
+}
+#number-phone-img img {
+    width: 9px;
+    margin: -2px;
+}
+.sp-brone{
+    font-family: 'PT Sans Caption';
+    font-size: 18px;
+    padding-left: 33px;
+    color: #575757;display: inline-block;
+    line-height: 25px;
+    background-repeat: no-repeat;
+    background-image: url('/images/calendar.png');
+}
+.sp-map{
+    font-family: 'PT Sans Caption';
+    font-size: 18px;
+    padding-left: 33px;
+    color: #575757;display: inline-block;
+    line-height: 25px;
+    background-repeat: no-repeat;
+    background-image: url('/images/map.png');
+}
+.val-param{
+    font-family: 'open Sans';
+    margin: 15px;
+    font-size: 12px;
+}
+.val-param span.names{
+
+    font-size: 12px;
+}
+.val-param span.vals{
+    font-family: 'PT SAns Caption';
+    font-weight: bold;
+    color: #515151;
+    font-size: 13px;
+    width: 117px;
+    display: inline-block;
+    text-align: right;
+}
+.sp-review{
+    font-family: 'PT Sans Caption';
+    font-size: 18px;
+    padding-left: 38px;
+    color: #575757;
+    display: inline-block;
+    line-height: 25px;
+    background-repeat: no-repeat;
+    background-image: url('/images/review.jpg');
+    background-size: 32px;
+    background-position: 2px 2px;
+}
+#box-review {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    text-align: center;
+}
+#box-review input[type='text'] {
+    font-family: 'PT Sans Caption';
+    font-size: 16px;
+    width: 90%;
+    border: 1px solid #FAAF91;
+    padding: 8px;
+}
+#box-review textarea {
+    font-family: 'PT Sans Caption';
+    font-size: 14px;
+    width: 90%;
+    border: 1px solid rgb(250, 175, 145);
+    padding: 8px;
+    height: 130px;
+    margin: 0px;
+}
+#box-review .row {
+    margin: 10px;
+}
+#box-review input[type='submit'] {
+    font-family: 'Noto Sans';
+    text-align: center;
+    margin: 10px auto;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 0px;
+    font-style: italic;
+    color: #fff;
+    border: 0;
+    width: 240px;
+    font-size: 18px;
+    background-color: #F55312;
+}
+#box-review input[type='submit']:hover {
+    background-color: #AB1010;
+}
+
+
+#list-bread{
+    width: 500px;
+    float: left;
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+#list-bread li {
+    color: #8b8b8b;
+    display: inline-block;
+    font-family: "Noto Sans";
+    font-size: 13px;
+    font-style: italic;
+    line-height: 10px;
+}
+
+#list-bread li a {
+    color: #17a3e4;
+}
+
+.mm-name {
+    font-family: 'Open SAns';
+    font-size: 32px;
+    line-height: 35px;
+    color: rgb(83, 83, 83);
+    letter-spacing: -1px;
+    font-weight: 300;
+
+}
+.mm-cat{
+    margin-left: 1px;
+    font-family: 'Noto Sans';
+    font-size: 15px;
+    color: rgb(150, 150, 150);
+    line-height: 30px;
+    width: 450px;
+}
+.mm-other{
+    margin-left: 1px;
+    font-family: 'Noto Sans';
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.shadow2-1{
+    line-height: 22px;
+    font-size: 13px;
+    color: #ADADAD;font-family: 'Noto Sans';
+}
+
+.shadow2-1 span {
+    display: inline-block;
+    text-align: center;
+    width: 210px;
+}
+
+
+#bx-mp .shadow2{
+    padding:0px !important;
+}
+
+#map{
+       width: 100%;
+    height: 400px
+}
+
+.form-control{
+    background-color: #ebebeb;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px !important;
+    font-family: "PT Sans Caption";
+    font-size: 13px;
+    padding: 5px 10px;
+    width: 90%;
+}
+
+.has-error .form-control {
+    border-color: #a93d27;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.form-group{
+    margin:0px;
+}
+
+/*****************************/
+
+.items li {
+    padding: 0px;
+    margin:0px;
+
+    -webkit-transition: height 0.5s ease, box-shadow 0.5s linear;
+    transition: height 0.5s ease, box-shadow 0.5s linear;
+    box-shadow: rgba(59, 59, 59, 0.6) 0px 1px 6px;
+    border-radius: 4px;
+    margin-bottom:10px;
+    width: 616px;
+    display: inline-block;
+    height: 150px;
+}
+
+.it-1 {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    text-align: left;
+    max-height: 191px;
+    margin-right: 11px;
+}
+.it-1 img{
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.it-2 {
+    float: left;
+    text-align: left;
+    position: relative;
+    padding: 7px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: #fff;
+
+    width: auto;
+}
+
+.it-2 img {
+    height: 24px;
+    opacity: .5;
+    margin: 0px 2px;
+}
+
+.it-2-icons{
+    position: absolute;
+    right: 5px;
+}
+
+.it-2-head{
+    line-height: 21px;
+    overflow: hidden;
+    width: 325px;
+    margin-bottom: 10px;
+}
+
+.it-2-head a{
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    margin-bottom: 4px;    font-weight: 300;
+    line-height: 23px;
+    font-family: 'Open Sans';
+}
+
+.it-2-price{
+    overflow: hidden;
+}
+
+.it-2-price > div{
+    float:left;
+    width:142px;
+}
+
+.it-2-price span.days{
+    display: inline-block;
+    padding: 2px 10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #878787;
+    font-family: 'PT Sans Caption';
+    border: 1px solid #D5D5D5;
+    border-radius: 15px;
+}
+
+.it-2-dayPirce{
+    line-height: 24px;
+    font-family: 'PT Sans Caption';
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.it-2-dayPirce{
+    line-height: 24px;
+    font-family: 'PT Sans Caption';
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.it-2-dayPirce span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #878787;
+    margin-left:5px;
+}
+/*******************************/
+
+
+.phone-service {
+    background-image: url("/images/ph2.jpg");
+    background-position: 3px center;
+    background-repeat: no-repeat;
+    color: #4e4e4e;
+    float: right;
+    font-family: "Noto Sans";
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 7px;
+    padding-left: 28px;
+}
+
+.divDisabled {
+    display: none;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+
+    border-radius: 4px;
+    background: rgba(5, 5, 5, 0.74) none repeat scroll 0 0;
+}
+
+/********************Reserve window*******************************/
+.ReserveInfo {
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 49px;
+    padding: 10px;
+    border-radius: 7px;
+    width: 600px;
+    background-color: #fff;
+}
+
+.ReserveInfoContent {
+    width: 90%;
+    margin: 8px auto;
+    color: #333;
+}
+.ReserveInfoDates {
+    font-size: 14px;
+    margin: auto;
+    overflow: hidden;
+    width: auto;
+    margin-top: 20px;
+}
+.ReserveInfoDates span {
+    float: left;
+    display: block;
+    width: 60px;
+    margin-left: 135px;
+}
+
+#reserveDates {
+    line-height: 20px;
+    margin-left: -10px;
+    padding-top: 4px;
+    width: 260px;
+}
+
+
+.ReserveInfoContent h2{
+    font-family: "Open Sans";
+    margin: 10px 0px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.del-success, #add-success {
+    font-size: 15px;
+    color: #5D5D5D;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 24px;
+    padding-left: 30px;
+    background-image: url('/images/dl2.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 8px 5px;
+    padding-right: 6px;
+    border-radius: 5px;
+    background-color: #E8E8E8;
+}
+
+
+.del-success{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    vertical-align: top;
+}
+.del-success:hover {
+    background-color: #F35353;
+    color: #fff;
+}
+
+#add-success {
+    background-image: url('/images/good.png');
+    margin-left: 10px;
+    border: 0;
+}
+#add-success:hover {
+    background-color: #1F1F1F;
+    color: #FAFAFA;
+}
+.ReserveInfo form{
+    text-align: left;
+}
+
+.row-form{
+    margin: 9px 0px;
+}
+
+.row-form label{
+    font-size: 14px;
+    display: inline-block;
+    width: 196px;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 10px;
+    line-height: 30px;
+    font-weight: bold !important;
+    color: #333 !important;
+}
+
+.row-form input[type='text']{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ebebeb;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px !important;
+    font-family: "Open Sans";
+    font-size: 13px;
+    padding: 5px 10px;
+    width: 230px;
+}
+.row-submit{
+    text-align: center;
+    margin-right: 50px;
+}
+
+/***********************************************************************************/
+#left-social{
+        font-family: 'PT Sans Caption';
+    font-size: 18px;
+    padding-left: 33px;
+    color: #575757;
+    float: left;
+    line-height: 46px;
+    width: 300px;
+    text-align: right;
+}
+
+label.control-label{
+    font-weight: normal !important;
+}
+
+.form-group label{
+}
+
+#right-social{
+    float: left;
+    width: 300px;
+}
+
+#rent-form .form-group input{
+    width: 290px !important;
+}
+
+
+.help-block{
+    font-size: 10px;
+}
+
+.custom-error-block{
+    font-size:	11px;
+    color:	#a94442;
+}
+
+.show-calendar {
+
+    width: 586px;
+
+    overflow: hidden;
+    border-radius: 0px;
+    box-shadow: none;
+    display: block;
+    font-size: 14px;
+    list-style: outside none none;
+    margin: auto;
+    min-width: 160px;
+    padding: 0px;
+    text-align: center;
+}
+#list-timer-label-endTimer, #list-timer-label-startTimer{
+    padding: 3px 10px;
+    font-family: 'Noto Sans';
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+    text-align: left;
+    font-style: italic;
+    color: #646464;
+}
+
+
+/*********************************************************/
+#form-to-pay{
+    text-align: center;
+    margin: auto;
+    margin-top:45px;
+    padding: 15px;
+    width: 380px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+#form-to-pay h2{
+    margin: 0px 0px 10px;
+    font-family: 'PT Sans Caption';
+    font-size: 20px;
+}
+
+
+.row-formpay {
+    background-position: 0px;
+    background-size: 24px;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Exo 2';
+    text-align: left;
+    padding: 7px 5px;
+    padding-left: 32px;
+    background-repeat: no-repeat;
+    margin-left: 55px;
+}
+.row-formpay input[type='radio'] {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+.row-formpay label {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 22px;
+    cursor: pointer;
+    font-family: 'Pt Sans Caption';
+    font-weight: bold;
+    font-size: 14px;
+}
+.rowsubmit-formpay {
+    margin-left: 0;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#formpay .del-success {
+    font-size: 15px;
+    color: #989898;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #eee;
+    background-image: none;
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 8px 7px;
+    font-weight: bold;
+    margin-left: 10px;
+    line-height: 34px;
+    text-transform: uppercase;
+    margin-top: 3px;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'PT Sans Caption';
+}
+
+#formpay .del-success:hover {
+    text-decoration: none;
+    background-color: #E8E8E8;
+}
+
+.item-form-to-pay{
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    color: #444;
+    margin: 15px 0px;
+}
+.item-form-to-pay div{
+    margin-bottom: 5px;
+}
+.item-form-to-pay span{
+    font-family: 'Pt Sans Caption';
+    color: #000;
+}
+
+.item-form-to-pay2{
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    color: #444;
+    margin: 5px 0px;
+    padding: 10px;
+    background: #eee;
+}
+.item-form-to-pay2 span{
+    font-weight: bold;
+    font-family: 'Pt Sans Caption';
+    font-size: 16px;
+    color: #000;
+}
+
+#divStepData{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+
+/**********confirm form***************************************/
+
+#step-form .sub-box {
+    margin-left: 189px;
+}
+
+.step-row-form {
+    margin: 10px 0;
+}
+
+.step-row-form label {
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 30px;
+    padding-right: 10px;
+    text-align: right;
+    vertical-align: top;
+    width: 190px;
+    font-weight: normal;
+}
+
+.step-row-form select {
+    background-color: #ebebeb;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px !important;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 13px;
+    padding: 5px 10px;
+    vertical-align: top;
+    width: 255px;
+}
+
+.step-row-form input[type="text"] {
+    background-color: #ebebeb;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px !important;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 13px;
+    padding: 5px 10px;
+    vertical-align: top;
+    width: 230px;
+
+}
+
+.check-type {
+    display: inline-block;
+    font-family: "Open SAns";
+    font-size: 14px;
+    line-height: 30px;
+    vertical-align: top;
+}
+#step-list-dates {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#step-list-dates li {
+    background-color: #ffffff;
+    border: 1px solid #90cdee;
+    border-radius: 4px;
+    color: #1a7bb0;
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin: 2px 5px;
+    padding: 2px 7px;
+    vertical-align: top;
+}
+
+#step-list-dates li.text {
+    border: none;
+    color: #000000;
+    margin: 0;
+}
+
+.is_ortanization_block {
+    display: inline-block;
+    width: 230px;
+    cursor: pointer;
+}
+
+.is_ortanization_block label {
+    display: inline;
+    cursor: pointer;
+}
+
+#pass-seria {
+    width: 60px;
+}
+
+.passport .form-group {
+    display: inline-block;
+}
+
+#pass-num {
+    width: 141px;
+}
+
+#pass-lnum {
+    white-space: nowrap;
+    padding-right: 3px;
+    width: 20px;
+}
+
+.rent-info div{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*************end confirm form***************************/
+
+#reset-password-step{
+    margin-top: 10px;
+}
+
+#reset-password-step input {
+    width: 140px;
+}
+
+#reset-password-step label{
+    font-size: 13px;
+    text-align: left;
+}
+
+#reset-password-step .btn-save{
+    margin:0px;
+}

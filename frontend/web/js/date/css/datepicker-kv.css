@@ -1,0 +1,163 @@
+/*!
+ * @copyright Copyright &copy; Kartik Visweswaran, Krajee.com, 2015
+ * @package yii2-widgets
+ * @subpackage yii2-widget-datepicker
+ * @version 1.3.4
+ *
+ * Custom styling for Datepicker
+ * Built for Yii Framework 2.0
+ * Author: Kartik Visweswaran
+ * Year: 2015
+ * For more Yii related demos visit http://demos.krajee.com
+ */
+.datepicker {
+	z-index: 1151 !important;
+}
+
+.input-group.date.disabled  .input-group-addon .glyphicon {
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65;
+}
+
+.input-group.date .input-group-addon  {
+    cursor: default;
+}
+
+.input-group.date .kv-date-remove, .input-group.date .kv-date-calendar,
+.input-group.date .kv-date-remove, .input-group.date .kv-date-calendar,
+.input-group.input-daterange .kv-date-remove, .input-group.input-daterange .kv-date-calendar,
+.input-group.input-daterange .kv-date-remove, .input-group.input-daterange .kv-date-calendar {
+    cursor: pointer;
+}
+
+.input-group.input-daterange .input-group-addon {
+    border-left: 1px solid #ccc;
+}
+
+.input-group.input-daterange .input-group-addon:last-child {
+    border-right: 1px solid #ccc;
+}
+
+.table-condensed{
+    width: 210px;
+    height: 130px;
+}
+
+.table-condensed td {
+    background-color: #89e6a3;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    padding: 0px !important;
+    text-align: center;
+    vertical-align: middle;
+}
+td, th {
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.table-condensed {
+    border-collapse: separate !important;
+    border-spacing: 3px !important;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-condensed td.new, .table-condensed td.old  {
+    visibility: hidden;
+}
+
+.datepicker table tr td, .datepicker table tr th {
+    border: medium none;
+    border-radius: 4px;
+    height: 20px;
+    text-align: center;
+    width: 30px;
+}
+
+.table-condensed th {
+    color: #a2a2a2;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 5px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.table-condensed th.datepicker-switch:hover{
+    background: none !important;
+}
+
+
+.table-condensed td.reserved-right-half{
+    background: url('/images/reserved-right.gif') center center repeat-y;
+}
+
+.table-condensed td.reserved-left-half {
+    background: url('/images/reserved-left.gif') center center repeat-y;
+}
+
+.table-condensed td.reserved-left-right {
+    background: url('/images/reserved-left-right.gif') center center repeat-y;
+}
+
+.table-condensed td.reserved-middle {
+    background: url('/images/reserved-middle.gif') center center repeat-y;
+}
+
+.table-condensed td.reserved-full{
+    background-color: #e98282;
+}
+
+.datepicker table tr td.day:hover{
+    background-color: #3276b1;
+    border-color: #285e8e;
+    color: #ffffff;
+}
+
+.result-title-day {
+    background-color: #eeeeee;
+    border-radius: 4px;
+    font-family: "Tinos";
+    font-size: 20px;
+    font-style: italic;
+    margin: 5px 0 5px 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.datepicker{
+    padding: 0px;
+}
+
+.datepicker-inline{
+    width: auto;
+}
+
+.reservedInfo{
+}
+
+.result-title-day {
+    padding: 2px;
+    margin: 0px;
+    background-color: #eeeeee;
+    border-radius: 2px;
+    font-family: "Tinos";
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+.reservedInfo{
+    float:right;
+    width: 280px;
+}

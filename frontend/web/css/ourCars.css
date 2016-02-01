@@ -1,0 +1,253 @@
+.items {
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+.items li {
+    padding: 0px;
+    margin:0px;
+
+    -webkit-transition: height 0.5s ease, box-shadow 0.5s linear;
+    transition: height 0.5s ease, box-shadow 0.5s linear;
+    box-shadow: rgba(59, 59, 59, 0.6) 0px 1px 6px;
+    border-radius: 4px;
+    margin-bottom:10px;
+    width: 100%;
+    display: inline-block;
+    height: 165px;
+
+}
+
+.it-1 {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    text-align: left;
+    max-height: 191px;
+    margin-right: 11px;
+}
+.it-1 img{
+    height: 165px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.it-2 {
+    float: left;
+    text-align: left;
+    position: relative;
+    padding: 7px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: #fff;
+
+    width: auto;
+}
+
+.it-2 img {
+    height: 17px;
+    opacity: .7;
+    margin: 0px 2px;
+    vertical-align: top;
+}
+.trans-t {
+    color: #5C5B5B !important;
+}
+.it-2-icons{
+       position: absolute;
+    right: 5px;
+    line-height: 17px;
+}
+.pwr{
+        font-size: 12px;
+    font-weight: bold;
+    color: #5C5B5B;
+    font-family: 'PT Sans Caption';
+    position: absolute;
+    right: 6px;
+    top: 19px;
+}
+
+.it-2-head{
+    line-height: 21px;
+    overflow: hidden;
+    width: 325px;
+    margin-bottom: 2px;
+}
+.it-2-salon{
+       line-height: 15px;
+    margin-bottom: 6px; 
+}
+.it-2-salon a{
+        color: #0AA988;
+    font-family: 'Noto Sans';
+    font-size: 13px;
+}
+
+.it-2-head a{
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    margin-bottom: 4px;    font-weight: 300;
+    line-height: 23px;
+    font-family: 'Open Sans';
+}
+
+.it-2-price{
+    overflow: hidden;
+}
+
+.it-2-price > div{
+    float:left;
+    width:126px;
+}
+
+#soc-buttons{
+    text-align: center;
+    margin-top: 30px;
+}
+#soc-buttons h2{
+        color: #161515;
+    font-family: "PT Sans Caption";
+    font-size: 20px;
+    font-weight: bold;
+    height: 22px;
+    letter-spacing: -1px;
+    margin: 20px 0;
+    text-align: center;
+}
+.it-2-price span.days{
+    display: inline-block;
+    padding: 2px 10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #878787;
+    font-family: 'PT Sans Caption';
+    border: 1px solid #D5D5D5;
+    border-radius: 15px;
+}
+
+.it-2-dayPirce{
+    line-height: 24px;
+    font-family: 'PT Sans Caption';
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.it-2-dayPirce{
+    line-height: 24px;
+    font-family: 'PT Sans Caption';
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.it-2-dayPirce span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #878787;
+    margin-left:5px;
+}
+
+
+.mm-name{
+    color: rgba(0, 0, 0, 0.63);
+    font-family: "Open SAns";
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: -1px;
+
+}
+
+.phone-service {
+    background-image: url("/images/ph2.jpg");
+    background-position: 3px center;
+    background-repeat: no-repeat;
+    color: #4e4e4e;
+    float: right;
+    font-family: "Noto Sans";
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 7px;
+    padding-left: 28px;
+}
+
+.cars-autoCars-index{
+    padding-top:12px;
+}
+
+#map{
+    margin:auto;
+    width: 405px;
+    height: 400px;
+
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(59, 59, 59, 0.6);
+    overflow: hidden;
+}
+
+
+.adress-short {
+    background-image: url("/images/mp.jpg");
+    background-position: 3px center;
+    background-repeat: no-repeat;
+    color: #4e4e4e;
+    font-family: "Noto Sans";
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 10px;
+    padding-left: 28px;
+}
+
+
+.pop-map {
+    border-bottom: 1px dashed #2ba4dc;
+    color: #1090cb;
+    cursor: pointer;
+    display: inline-block;
+    font-style: italic;
+    line-height: 17px;
+    margin-left: 10px;
+}
+
+#contact-text{
+        margin-bottom: 20px;
+}
+
+#contact-text h2{
+        color: #161515;
+    font-family: "PT Sans Caption";
+    font-size: 20px;
+    font-weight: bold;
+    height: 22px;
+    letter-spacing: -1px;
+    margin: 10px 0;
+    text-align: center;
+    }
+
+.item-contact{
+    font-size: 16px;
+    font-family: "PT Sans Caption";
+}
+
+.con-label{
+    font-size: 16px;
+    display: inline-block;
+    line-height: 30px;
+    padding-left: 15px;
+    text-align: right;
+    width: 107px;
+}
+
+.con-val{
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 30px;
+    padding-left: 15px;
+}

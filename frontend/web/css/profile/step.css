@@ -1,0 +1,314 @@
+.box-step{
+  
+}
+.box-step ul{
+      overflow: hidden;
+    background-color: #fff;
+}
+.box-step ul li{
+    display: inline-block;
+    width: 165px;
+    padding: 8px 15px;
+    padding-left: 20px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    margin: -2px;
+    position: relative;
+}
+.box-step li.act{
+        background-color: #8ED6FC !important;
+}
+
+.box-step li div{
+      opacity: .8;
+}
+.box-step li span{
+      font-size: 14px;
+    font-weight: normal;
+    opacity: .6;
+}
+.box-step li b{
+      width: 0;
+    height: 0;
+    top: 18px;
+    right: -10px;
+    z-index: 9;
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #DCDCDC;
+}
+.box-step li.act b{
+      border-color: transparent transparent transparent #8ED6FC;
+}
+h1{
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: 300;
+    margin-left: 110px;
+    margin-bottom: 40px;
+}
+#step-form .sub-box{
+    margin-left: 189px;
+}
+.step-row-form{
+      margin: 10px 0px;
+}
+.step-row-form label{
+      font-size: 14px;
+    display: inline-block;
+    width: 186px;
+    text-align: right;
+    vertical-align: top;
+    line-height: 30px;
+    padding-right: 10px;
+    font-family: 'Open Sans';
+}
+
+.step-row-form select{
+      display: inline-block;
+    vertical-align: top;
+    background-color: #ebebeb;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px !important;
+    font-family: "Open Sans";
+    font-size: 13px;
+    padding: 5px 10px;
+    width: 255px;
+}
+.step-row-form input[type='text']{
+      display: inline-block;
+    vertical-align: top;
+    background-color: #ebebeb;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px !important;
+    font-family: "Open Sans";
+    font-size: 13px;
+    padding: 5px 10px;
+    width: 230px;
+}
+.step-row-form input[type='submit']{
+      color: #6CA42A;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 37px;
+    padding-left: 44px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-size: 17px;
+    background-position: 8px 5px;
+    background-size: 27px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    background-image: url('../images/good.png');
+    margin-left: 10px;
+    border: 1px solid #8AC149;
+    padding-right: 14px;
+}
+.step-row-form input[type='submit']:hover{
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #FAFAFA;
+  }
+
+.check-type{
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Open SAns';
+    font-size: 14px;
+    line-height: 30px;
+}
+#step-list-dates{
+      display: inline-block;
+    vertical-align: top;
+}
+#step-list-dates li{
+      display: inline-block;
+    vertical-align: top;
+    margin: 2px 5px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    color: #1A7BB0;
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    border: 1px solid #90CDEE;
+}
+.check-type label{
+      text-align: left;
+    width: 100px;
+    cursor: pointer;
+}
+#pass-seria{
+    width: 60px;
+}
+#pass-lnum{
+    width: 20px;
+    padding-right: 3px;
+}
+#pass-num{
+  width: 116px;
+}
+#user-box, #passport-box, #driver-box{
+      padding-top: 5px;
+    border-top: 1px solid #EBEBEB;
+    width: 600px;
+}
+
+#step-2{
+    background-color: #DCDCDC;
+}
+#step-3{
+    background-color: #EEEEEE;
+}
+
+
+.past-step{
+    background-color: #B3F6B1;
+}
+.past-step .tri{
+    border-color: transparent transparent transparent #B3F6B1;
+}
+
+.l-years{
+    text-align: left !important;
+    width: 100px !important;
+    margin-left: 5px;
+ 
+}
+.n-years{
+      width: 87px !important;
+    text-align: right !important;
+}
+.a-check{
+padding: 5px 20px;
+    line-height: 30px;
+    border-radius: 4px;
+    background-color: #39B0EF;
+    color: #FFFBFB;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+.a-check:hover{
+background-color: #050505;
+}
+.black-yes{
+      padding: 10px;
+    border: 1px solid #FD8181;
+    margin: 10px;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    background-color: #F99D9D;
+    color: #830909;
+}
+.black-no{
+  padding: 10px;
+    border: 1px solid #4ED54A;
+    margin: 10px;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    background-color: #B3F6B1;
+    color: #056302;
+}
+.to-back{
+      color: #919191;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 37px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    background-position: 8px 5px;
+    background-size: 27px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+    border: 1px solid #CBCBCB;
+}
+.to-back:hover{
+      background-color: #C8C5C5;
+    color: #fff;
+}
+
+.box-accept{
+      margin-left: 273px;
+}
+.sub-box-step2{
+      margin-left: 150px;
+}
+
+#step-fms label{
+      width: 265px;
+}
+
+.box-accept label{
+       width: 400px !important;
+    line-height: 18px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#box-info-client{
+        width: 635px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.item-info-client{
+        line-height: 30px;
+}
+
+.item-info-client-label{
+        display: inline-block;
+    width: 165px;
+    text-align: right;
+    margin-right: 15px;
+    font-family: 'Open sans';
+    font-size: 14px;
+}
+
+.item-info-client-result{
+        display: inline-block;
+    text-align: right;
+    font-family: 'Open sans';
+    font-size: 14px;
+}
+.tri-e{
+      border-color: transparent transparent transparent #EEEEEE !important;
+}
+.tri-gray{
+          border-color: transparent transparent transparent #DCDCDC !important;
+}
+.tri-blue{
+         border-color: transparent transparent transparent #8ED6FC !important;
+}
+.tri-green{
+          border-color: transparent transparent transparent #B3F6B1 !important;
+}
+.image-load{
+      padding-left: 33px;
+    background-image: url('../images/idoc.png');
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 7px;
+}
+.about-doc{
+   
+    margin: 15px;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+.indent-left{
+      margin-left: 111px;
+}
+

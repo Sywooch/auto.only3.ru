@@ -1,0 +1,105 @@
+.contentProfile h1 {
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-left: 110px;
+}
+
+#pass-seria {
+    width: 60px;
+}
+
+#pass-lnum {
+    padding-right: 3px;
+    width: 20px;
+}
+
+.create-user-black #pass-lnum:after {
+    content: "  ";
+}
+
+#pass-num {
+    width: 141px !important;
+}
+
+#user-box, #passport-box, #driver-box, #adress-box, #jur-box, #check-box{
+    border-top: 1px solid #ebebeb;
+    padding-top: 5px;
+    width: 600px;
+}
+
+.step-row-form input[type="text"] {
+    background-color: #ebebeb;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px !important;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-size: 13px;
+    padding: 5px 10px;
+    vertical-align: top;
+    width: 230px;
+}
+
+
+.step-row-form .select2-container--krajee {
+    display: inline-block;
+    width: 228px !important;
+    margin-left: -2px !important;
+}
+
+#user-box, #passport-box, #driver-box, #adress-box, #jur-box, #check-box {
+    border-top: 1px solid #ebebeb;
+    padding-top: 5px;
+    width: 600px;
+}
+
+#check-box label{
+    text-align: left;
+    padding-left: 5px;
+}
+
+.step-row-form {
+    margin: 10px 0;
+}
+
+.create-user-black label:after{
+    content: "  ";
+    margin-right: 5px;
+}
+
+.create-user-black  .required label:after{
+    color: red !important;
+    content: " *";
+    margin-right: 0;
+}
+
+
+
+.step-row-form label {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    padding-right: 10px;
+    text-align: right;
+    vertical-align: top;
+    width: 240px;
+}
+
+.is_ortanization_block {
+    display: inline-block;
+    width: 200px;
+}
+
+.is_ortanization_block label{
+    width: auto;
+}
+
+.passport .form-group {
+    display: inline-block;
+}
+
+.step-city .input-group {
+    border: 1px solid red !important;
+}

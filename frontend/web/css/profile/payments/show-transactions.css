@@ -1,0 +1,180 @@
+
+#box-list-transaction .t-item {
+    padding: 0px;
+    margin: 0px;
+    background: #E3E1E1;
+    border: 0px;
+}
+
+
+#lit1{
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+}
+#lit2{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+#lit3{
+    display: inline-block;
+    width: 158px;
+    text-align: center;
+}
+#lit4{
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+}
+#lit5{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+}
+#lit6{
+    display: inline-block;
+    width: 74px;
+    text-align: center;
+}
+
+
+#box-list-transaction{
+    margin: 30px 0px 0px 0px;
+    position: relative;
+    padding: 0px;
+}
+
+#box-list-transaction h2{
+    margin: 0px 0px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'PT Sans Caption';
+    letter-spacing: -0.5px;
+    clear: both;
+}
+
+#list-tp {
+    position: absolute;
+    top: -30px;
+    font-size: 12px;
+    font-family: 'Noto Sans';
+    text-transform: lowercase;
+    list-style: none;
+    color: #808080;
+    margin: 0;
+    padding: 0;
+}
+
+
+.ti-photo{
+    float: left;
+    width: 70px;
+    height: 40px;
+}
+.ti-photo img{
+    height: 38px;
+    padding: 1px;
+    border: 1px solid #9B9B9B;
+    border-radius: 3px;
+    margin-bottom: 0px;
+}
+.ti-auto{
+    font-size: 14px;
+    font-family: 'PT Sans Caption';
+    letter-spacing: -0.5px;
+    width: 119px;
+    float: left;
+    margin-top: 1px;
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.ti-time{
+    font-size: 14px;
+    font-family: 'PT Sans Caption';
+    letter-spacing: -0.5px;
+    width: 108px;
+    float: left;
+    line-height: 30px;
+}
+.ti-op{
+    font-size: 14px;
+    font-family: 'PT Sans Caption';
+    letter-spacing: -0.5px;
+    width: 163px;
+    float: left;
+    line-height: 30px;
+}
+.ti-all{
+    font-size: 15px;
+    font-family: 'PT Sans Caption';
+    letter-spacing: -0.5px;
+    width: 108px;
+    float: left;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+}
+.ti-am{
+    font-size: 15px;
+    font-family: 'PT Sans Caption';
+    letter-spacing: -0.5px;
+    width: 108px;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+.ti-st{
+    font-size: 14px;
+    font-family: 'PT Sans Caption';
+    letter-spacing: -0.5px;
+    width: 108px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.rentact-info{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: #FFFFFF;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-image: url('/images/enter.jpg');
+    background-position: 20px -5px;
+}
+
+.r-info{
+    line-height: 23px;
+    font-family: 'Noto sans';
+    font-size: 13px;
+    color: #050505;
+    text-align: right;
+    font-style: italic;
+}
+.r-info-date{
+    margin-right: 20px;
+    display: inline-block;
+}
+.r-info-name{
+    margin-right: 20px;
+    display: inline-block;
+}
+.r-info-phone{
+    display: inline-block;
+    padding-right: 10px;
+}
+.r-info-date span, .r-info-name span, .r-info-phone span{
+    color: #6B6B6B;
+}
+
+#list-mss{
+    margin: 0px;
+    padding: 0px;
+}

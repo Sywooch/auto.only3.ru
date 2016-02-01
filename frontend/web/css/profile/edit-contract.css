@@ -1,0 +1,45 @@
+#modal-contractor{
+    color: #337ab7;
+    cursor: pointer;
+}
+
+#modal-contractor:hover{
+    color: #23527c;
+    text-decoration: underline;
+}
+
+#modal-content-contract h2{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#modal-content-contract{
+    font-size: 12px;
+}
+
+.document-upload{
+    margin-top: 5px;
+}
+
+.document-upload .form-group{
+    display: inline-block;
+    width: 260px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.document-upload input[type='file']{
+    height: 30px;
+}
+
+.document-upload button{
+    margin-top: 5px;
+}
+
+.return-contract{
+    margin-top: 15px;
+    font-size: 12px;
+    color: #a94442;
+    clear: both;
+}
